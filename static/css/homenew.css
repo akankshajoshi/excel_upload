@@ -1,0 +1,281 @@
+body {
+	font-family: Open Sans,sans-serif !important;
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+}
+.body {
+	font-family: Open Sans,sans-serif !important;
+	margin: 0;
+	padding: 0;
+	overflow-x: inherit !important;
+}
+.logo {
+	float: left;
+}
+.header {
+	width: 92%;
+	float: left;
+	box-shadow: 0 1px 6px #00000082;
+	padding: 14px 54px;
+}
+.header2 {
+	width: 100%;
+	float: left;
+	box-shadow: 0 1px 6px #00000082;
+	padding: 14px 54px;
+}
+.right {
+	float: right;
+}
+.container {
+	width: 88%;
+	float: left;
+	margin: 37px 6% 0;
+	padding:0 !important;
+}
+.form-control {
+	padding: 10px 14px;
+	border-radius: 5px;
+	border: 1px solid #666;
+}
+.col-md-6 {
+	float: left;
+	margin: 0 11px;
+}	
+.row1 {
+	width: 100%;
+	float: left;
+}
+.row {
+	width: 100%;
+	float: left;
+}
+#addEvent {
+	background: #fb7e1c;
+	border: none;
+	padding: 11px 23px;
+	color: #fff;
+	border-radius: 3px;
+	font-size: 14px;
+}
+.fc-next-button.fc-button.fc-button-primary {
+	background: #fb7e1c;
+	border-color: #fb7e1c;
+}
+.fc-prev-button.fc-button.fc-button-primary {
+	background: #fb7e1c;
+	border-color: #fb7e1c;
+}
+.row {
+	width: 100%;
+	float: left;
+	margin: 31px 0 0 0;
+}
+.fa.fa-bell.bell-icon {
+	color: #08a40d;
+	font-size: 30px !important;
+	position: relative;
+	top: 0;
+	margin: 0 0 0 12px;
+	float: left;
+}
+#lang {
+	color: green;
+	padding: 0 6px;
+	position: relative;
+	top: 0;
+	width: 100px;
+	height: 33px;
+	border: 1px solid #666;
+	border-radius: 5px;
+	float: left;
+}
+.fc-prev-button.fc-button.fc-state-default.fc-corner-left {
+	background: #fb7e1c;
+	color: #fff;
+}
+.fc-next-button.fc-button.fc-state-default.fc-corner-right {
+	background: #fb7e1c;
+	color: #fff;
+}
+
+.fc-day-grid-event.fc-event.fc-start.fc-end {
+	background: #08a40d !important;
+}
+.fc-event-title-container {
+	background: #08a40d;
+	border-color: #08a40d;
+}
+
+.fc-state-active {
+	background: #fb7e1cb3 !important;
+	font-weight: normal;
+}
+.fc-state-default {
+	background: #fb7e1c;
+	color: #fff;
+}
+.fc-event {
+	font-size: .85em;
+	line-height: 1.3;
+	font-weight: 600;
+
+}
+.fc-content {
+    border: 1px solid #08a40d !important;
+}
+
+
+
+
+.closeon {
+  border-radius: 5px;
+}
+
+input {
+  width: 50%;
+}
+
+input[type="text"][readonly] {
+  border: 2px solid rgba(0, 0, 0, 0);
+}
+
+/*info btn*/
+.dropbtn {
+  /*background-color: #4CAF50;*/
+  background-color: #eee;
+  margin: 10px;
+  padding: 8px 16px 8px 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 200px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  margin-left: 100px;
+  margin-top: -300px;
+}
+
+.dropdown-content p {
+  color: black;
+  padding: 4px 4px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: grey;
+}
+
+.dropdown:hover .dropbtn span {
+  color: white;
+}
+.fc-center h2 {
+	font-size: 26px !important;
+	font-weight: bold;
+}
+.col-md-12 {
+	padding: 0;
+}
+.fc .fc-button-group > * {
+	float: left;
+	margin: 0 0 0 -1px;
+	font-size: 16px;
+}
+.fc th, .fc td {
+	border-style: solid;
+	border-width: 1px;
+	padding: 0;
+	vertical-align: top;
+	font-size: 16px;
+	color:#000;
+
+}
+.fc-day-number {
+	color: #000;
+}
+/* .body .fc-body td table td { */
+	/* width: 168.3px; */
+/* } */
+.glyphicon {
+	
+	font-size:16px;
+}
+
+.modal-footer {
+	padding: 15px;
+	text-align: right;
+	border-top: 1px solid #e5e5e5;
+	width: 100%;
+	display: inline-block;
+}
+#save-event {
+	background: #fb7e1c;
+	border: none;
+}
+.fc-today-button.fc-button.fc-state-default.fc-corner-left.fc-corner-right.fc-state-disabled {
+	font-size: 16px;
+}
+.fc-content {
+	background: #08a40d !important;
+}
+.row2 {
+	width: 100%;
+	float: left;
+	margin: 0px 0 14px 0;
+}
+.fc-day-header a {
+	color: #000;
+}
+#title {
+	width: 100%;
+	padding: 5px 4px;
+	border-radius: 3px;
+	border: 1px solid #ccc;
+	font-size: 16px;
+}
+#starts-at, #ends-at {
+	padding: 6px 4px;
+	border-radius: 3px;
+	border: 1px solid #ccc;
+}
+@media screen and (max-width:480px) and (min-width:320px)  {
+	.col-xs-4 {
+	width: 100%;
+	float: left;
+	padding: 0;
+}
+#starts-at,#ends-at {
+	width: 100%;
+}
+.container {
+	width: 94% !important;
+	float: left;
+	margin: 37px 3% 0 !important;
+	padding: 0 !important;
+}
+.material-icons {
+
+	font-size: 16px !important;
+	
+}	
+}

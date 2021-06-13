@@ -1,0 +1,76 @@
+{% load static %}
+
+<html lang="en">
+<head>
+<title>Add Student</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" >
+</head>
+<body class="body">
+<div class="header">
+<div class="logo">
+<img src="{% static 'images/Prep-Logo.png' %}" />
+</div>
+<div class="right">
+<select _ngcontent-dee-c62="" name="siteLocale" id="lang" class="form-control text-dark bg-light ng-untouched ng-pristine ng-valid"><option _ngcontent-dee-c62="" value="en" class="ng-star-inserted"> English </option><option _ngcontent-dee-c62="" value="hi" class="ng-star-inserted"> हिंदी </option><!----></select>
+
+<i aria-hidden="true" class="fa fa-bell bell-icon"></i>
+<img src="{% static 'images/user-icon.png' %}" style="height: 34px;width: 34px;border-radius: 50%;position: relative;top: 0;margin: 0 7px;float: left;" />
+
+<a _ngcontent-dee-c62="" class="btn btn-link show-text-menu">Help</a>
+</div>
+</div>
+  <div class="container">
+  <div class="update_pan">
+  <span style="width: 100%;float: left;font-size: 21px">Upload Student File</span>
+<!-- <a href="" class="cale_view"><i class="fa fa-calendar" aria-hidden="true"></i></a> -->
+<!-- <a href="" class="create_new"><i class="fa fa-plus" aria-hidden="true"></i>Create New</a>  -->
+</div>
+      {% if error %}
+      <div>
+          <h3 style="color:red;">{{error}}</h3>
+      </div>
+      {% endif %}
+      {% if message %}
+      <div>
+          <h3 style="color:green;">{{message}}</h3>
+      </div>
+      {% endif %}
+<div class="main_container">
+<div class="import">
+<div class="downlo_file">
+
+<div class="setp2">
+<span class="file_titl">Use format shown below</span>
+    <form method="post" enctype="multipart/form-data" action=".">
+        {% csrf_token %}
+        <div class="class_nameupload">
+             <input type="file" name="my_file" required>
+        </div>
+        <div class="class_nameupload btn_class">
+             {# <a class="btn_submit" href="">Upload File</a>#}
+            <a class="btn_submit"><button class="btn_submit" type="submit">Upload File</button></a>
+        </div>
+    <form>
+
+
+</div>
+<div class="setp1">
+<!-- <span class="file_titl">Export File</span> -->
+<a href="{% static 'sample.xlsx' %}" class="file" download="">
+<span>Click here to download sample file</span>
+<img src="{% static 'images/excel.png' %}" />
+</a>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+      </div>
+
+  <link rel="stylesheet" href="{% static 'css/homenew.css' %}">  <link rel="stylesheet" href="{% static 'css/form.css' %}">   <link rel="stylesheet" href="{% static 'css/reportsnew.css' %}">
+  
+</body>
+
+</html>

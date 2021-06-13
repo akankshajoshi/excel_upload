@@ -1,0 +1,153 @@
+.create_class {
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+    grid-gap: 19px;
+    width: 100%;
+}
+.class_name span {
+    width: 100%;
+    float: left;
+	    margin: 0 0 11px 0;
+}
+.class_name input {
+    padding: 8px 5px;
+    width: 98%;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+.class_name textarea {
+    padding: 8px 5px;
+    width: 98%;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+.class_name select {
+    padding: 8px 5px;
+    width: 100%;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+.time_exam div {
+    width: 48%;
+    float: left;
+    margin: 0 0 0 6px;
+}
+div#foo_select_chosen {
+    width: 100% !important;
+}
+.class_name i {
+    position: absolute;
+    margin: 4px 0 0 -20px;
+    font-size: 22px;
+}
+.btns_exam a {
+    padding: 8px 11px;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 3px;
+}
+.btns_exam {
+    margin: 27px 0 14px 0;
+    text-align: left;
+}
+.btn_submit {
+    background: #fb7e1c;
+    color: #fff;
+}
+.btn_cancle {
+    background: lightgrey;
+    color: #000;
+}
+
+@media screen and (max-width:600px) {
+	
+	.create_class {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)) !important;
+}
+.class_name input {
+    width: 96%;
+}
+.time_exam div {
+    width: 48%;
+
+}
+.class_nameupload.btn_class {
+	margin: 0 0 0 25px;
+	width: 30% !important;
+}
+.class_nameupload {
+	width: 57% !important;
+	float: left;
+}
+}@media screen and (width:768px) {
+.create_class {
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-gap: 19px;
+    width: 100%;
+}
+.time_exam div {
+    width: 48%;
+    float: left;
+    margin: 0 0 0 6px;
+}
+}
+span.label_view {
+    font-size: 18px;
+}
+
+
+.create_classa {
+	float: left;
+	width: 100%;
+}
+.class_nameupload {
+	width: 17%;
+	float: left;
+}
+.class_nameupload a {
+    padding: 9px 14px;
+    text-decoration: none;
+    border-radius: 3px;
+    margin: 0 0 0 0;
+    display: inline-block;
+}
+.class_nameupload.btn_class {
+	margin: 0 0 0 25px;
+}
+.class_nameupload input {
+	padding: 8px 5px;
+	width: 98%;
+	border-radius: 3px;
+	border: 1px solid #ccc;
+}
+.class_nameupload span {
+	width: 100%;
+	float: left;
+	margin: 0 0 11px 0;
+}
+
+.add_stu {
+	padding: 14px 45px;
+	background: #fb7e1c;
+	color: #fff;
+	text-decoration: none;
+	border-radius: 3px;
+}.uplo_stu {
+	padding: 14px 45px;
+	background: #fb7e1c;
+	color: #fff;
+	text-decoration: none;
+	border-radius: 3px;
+}
+.btns_addupl {
+	line-height: 8;
+	width: 100%;
+	float: left;
+	text-align: center;
+}
+/* .file img { */
+	/* width: 100%; */
+/* } */
